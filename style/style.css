@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+#form h1{
+    padding: 30px;
+}
+#form input{
+    padding: 10px 30px;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+#form #btn{
+    background-color: gray;
+    border: 2px solid black;
+    color: white;
+}

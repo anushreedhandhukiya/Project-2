@@ -3,12 +3,6 @@
     {
       "name": "Anushree",
       "email": "anushreecd2000@gmail.com",
-      "password": "aniusydf@1641",
-      "id": 1
-    },
-    {
-      "name": "Anushree",
-      "email": "anushreecd2000@gmail.com",
       "password": "eqwrDGjdhf66",
       "id": 2
     },
@@ -17,6 +11,18 @@
       "email": "anushree@gmail.com",
       "password": "12345Ag564@#$$",
       "id": 3
+    },
+    {
+      "name": "anushree",
+      "email": "anushguhu@gmail.com",
+      "password": "abkuy@#$163",
+      "id": 4
+    },
+    {
+      "name": "anushree",
+      "email": "anu@gmail.com",
+      "password": "abkuy@#$163",
+      "id": 5
     }
   ]
 }

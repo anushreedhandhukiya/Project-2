@@ -68,6 +68,7 @@ document.getElementById("name").addEventListener("keypress", () => {
     var nameregex = /^[a-zA-Z ]{2,30}$/;
     if (!(nameregex.test(name))) {
         document.getElementById("n_err").innerHTML = "Invalid not a Name";
+        document.getElementById("n_err").style.color = "red"
     }
     else {
         document.getElementById("n_err").innerHTML = "valid name"
@@ -76,13 +77,14 @@ document.getElementById("name").addEventListener("keypress", () => {
 })
 
 
-document.getElementById("name").addEventListener("keypress", () => {
+document.getElementById("email").addEventListener("keypress", () => {
     //email
     let email = document.getElementById("email").value
     const emailregex =
         /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     if (!(emailregex.test(email))) {
         document.getElementById("e_err").innerHTML = "Invalid not a Email";
+        document.getElementById("e_err").style.color = "red"
     }
     else {
         document.getElementById("e_err").innerHTML = "valid email"
@@ -90,12 +92,13 @@ document.getElementById("name").addEventListener("keypress", () => {
     }
 })
 
-document.getElementById("name").addEventListener("keypress", () => {
+document.getElementById("password").addEventListener("keypress", () => {
     //password
     let password = document.getElementById("password").value
     var passregex = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
     if (!(passregex.test(password))) {
         document.getElementById("p_err").innerHTML = "Invalid not a Password";
+        document.getElementById("p_err").style.color = "red"
     }
     else {
         document.getElementById("p_err").innerHTML = "valid password"
