@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#nav{
+    padding: 10px 30px;
+}
 #nav a{
     text-decoration: none;
     color: black;
