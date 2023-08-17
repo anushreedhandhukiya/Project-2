@@ -27,3 +27,42 @@
     border: 2px solid black;
     color: white;
 }
+#parent-box{
+    display: flex;
+}
+#box{
+    width: 15%;
+    height: 100vh;
+    border: 1px solid black;
+}
+#box2 div img{
+    width: 200px;
+    height: 200px;
+}
+#box2{
+    width: 85%;
+    height: 100vh;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 30px;
+}
+#box2 div{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20PX;
+}
+#box2 div button{
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 20px;
+}
+#box button{
+    padding: 10px 30px;
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    margin-top: 30px;
+}

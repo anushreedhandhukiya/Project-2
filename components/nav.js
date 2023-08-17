@@ -1,5 +1,6 @@
 const nav = () =>{
-    return`<div id="nav">
+    return`
+    <div id="nav">
     <a href="/index.html">home</a>
     <a href="/pages/product.html">Product</a>
     <a href="/pages/cart.html">Cart</a>
