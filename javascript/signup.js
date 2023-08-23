@@ -14,8 +14,6 @@ const userdata = (e) => {
         /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     var passregex = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
 
-    let count = 0;
-
     if (!(nameregex.test(user.name))) {
         document.getElementById("n_err").innerHTML = "Invalid not a Name";
     }
@@ -59,7 +57,6 @@ const userdata = (e) => {
                         alert("error")
                     }
                 }
-
             })
     }
 }
