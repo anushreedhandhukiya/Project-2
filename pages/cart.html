@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart</title>
     <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
-    <div id="navbar"></div>
-    <div id="parent-box">
-        <div id="product-box"></div>
-        <!-- <div id="minus">-</div>
-        <div id="num">0</div>
-        <div id="plus">+</div> -->
-        <div id="cart">
-            <h2>Click to Cart</h2>
-            <button id="minus">-</button>
-            <span id="quantity">1</span>
-            <button id="plus">+</button>
-            <div id="totalPrice">$10</div>
-          </div>
+    <header>
+        <div class="container">
+            <nav id="nav">
+                <div class="row justify-content align-center">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/img/AD.png">
+                        </a>
+                    </div>
+                    <div id="navbar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="other">
+        <div id="price"></div>
     </div>
-    <div id="wrapper">
-    </div>
+    <div id="cartpage"></div>
 </body>
 <script type="module" src="/javascript/cart.js"></script>
+
 </html>

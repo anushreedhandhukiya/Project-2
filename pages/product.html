@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,35 @@
     <link rel="stylesheet" href="/style/all.min.css">
     <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
-    <div id="navbar"></div>
+    <header>
+        <div class="container">
+            <nav id="nav">
+                <div class="row justify-content align-center">
+                    <div class="logo">
+                        <a href="/index.html">
+                            <img src="/img/AD.png">
+                        </a>
+                    </div>
+                    <div id="navbar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <div id="parent-box">
         <div id="box">
-            <button>Low to High</button>
-            <button>High to Low</button>
-            <!-- <div class="shopping">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="qty">0</span>
-            </div> -->
+            <button id="lth">low to height</button>
+            <button id="htl">height to low</button>
+            <button id="man">man</button>
+            <button id="woman">woman</button>
+            <button id="ele">electronics</button>
         </div>
-        <!-- <div class="list"></div> -->
+
         <div id="box2"></div>
     </div>
-    <!-- <div class="card">
-        <h1>Card</h1>
-        <ul class="listcard"></ul>
-        <div class="checkout">
-            <div class="total">0</div>
-            <div class="closeshopping">close</div>
-        </div>
-    </div> -->
 
 </body>
 <script type="module" src="/javascript/product.js"></script>
+
 </html>

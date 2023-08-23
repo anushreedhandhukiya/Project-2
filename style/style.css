@@ -3,13 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify-content{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
 #nav{
     padding: 10px 30px;
+    
+}
+header{
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.126);
 }
 #nav a{
     text-decoration: none;
     color: black;
     padding: 20px;
+    font-size: 22px;
+}
+.logo img{
+    width: 150px;
 }
 #form h1{
     padding: 30px;
@@ -34,6 +57,7 @@
     width: 15%;
     height: 100vh;
     border: 1px solid black;
+    margin: 30px 0;
 }
 #box2 div img{
     width: 200px;
@@ -61,10 +85,13 @@
 }
 #box button{
     padding: 10px 30px;
+    width: 75%;
     display: block;
     margin: auto;
     font-size: 20px;
     margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #product-box{
     width: 100%;
@@ -91,23 +118,84 @@
     border-radius: 10px;
     padding: 20PX;
 }
-.shopping{
+#cartpage div{
+    padding: 20px;
+}
+
+#cartpage{
+    display: block;
+    width: 100%;
+}
+
+.mainbox{
+    border: 1px solid black;
+    display: flex;
     position: relative;
 }
-.shopping i{
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 0;
+#other{
+    width: 100%;
+    padding: 10px;
 }
-.shopping .qty{
-    position: absolute;
-    top: -10px;
-    right: 32%;
-    font-size: 22px;
-    background-color: red;
-    border-radius: 50%;
+.mainbox2{
+    margin: 30px;
+}
+.mainbox2 label{
+    padding-bottom: 20px;
+}
+#cartpage h3{
+    width: 300px;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+#cartpage img{
+    width: 200px;
+    height: 200px;
+}
+
+#cartpage button{
     padding: 5px 10px;
+    background-color: #3b3b3b;
+    margin: 1px;
     color: white;
+}
+label{
+    font-size: 25px;
+}
+#cartpage button:nth-child(1), button:nth-child(3){
+    cursor: pointer;
+}
+#cartpage span{
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+#price{
+    margin: 30px;
+    color: black;
+    word-spacing: 10px;
+    font-size: 28px;
+    text-align: right;
+}
+.price1{
+    font-size: 20px;
+    position: absolute;
+    right : -30px;
+}
+.code{
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.texts{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 50%;
+}
+
+.plusminse{
+    position: absolute;
+    right: 50px;
+    top: 40%;
 }
