@@ -91,3 +91,23 @@
     border-radius: 10px;
     padding: 20PX;
 }
+.shopping{
+    position: relative;
+}
+.shopping i{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.shopping .qty{
+    position: absolute;
+    top: -10px;
+    right: 32%;
+    font-size: 22px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: white;
+}

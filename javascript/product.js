@@ -71,3 +71,82 @@ const get= ()=>{
     })
 }
 get()
+
+// let openshopping = document.querySelector(".shopping")
+// let closeshopping = document.querySelector(".closeshopping") 
+// let list = document.querySelector(".list")
+// let listCard = document.querySelector(".listCard")
+// let body = document.querySelector("body")
+// let total = document.querySelector(".total")
+// let qty =document.querySelector(".qty")
+
+// openshopping.addEventListener("click",()=>{
+//     body.classList.add("active")
+// })
+
+// closeshopping.addEventListener("click",()=>{
+//     body.classList.remove("active")
+// })
+// let products= []
+// let listcards = []
+
+// function initApp(){
+//     products.forEach((value,key)=>{
+//         let newDiv = document.createElement("div")
+//         newDiv.classList.add("item")
+//         newDiv.innerHTML = `
+//         <img src="image/${value.image}"/>
+//         <div class="title>${value.name}</div>
+//         <div class="price>${value.price.toLocaleString()}</div>
+//         <button onclick="addtocard(${key})">Add to Card</button>
+//         `
+//         list.appendChild(newDiv)
+//     })
+// }
+// initApp()
+
+// function addtocart(key){
+//     if(listcards[key] == null){
+//         listcards[key] = products[key];
+//         listcards[key].qty = 1;
+//     }
+//     reloadcard()
+// }
+// function reloadcard() {
+//     listcard.innerHTML = "";
+//     let count = 0
+//     let totalprice= 0
+//     listcards.forEach((value,key)=>{
+//         totalprice = totalprice + value.price
+//         count = count + value.qty
+
+//         if(value != null){
+//             let newDiv = document.createElement("li")
+//             newDiv.innerHTML = `
+//                 <div><img src="image/${value.image}"/></div>
+//                 <div>${value.name}</div>
+//                 <div>${value.price.toLocaleString()}</div>
+//                 <div>${value.qty}</div>
+//                 <div>
+//                     <button onclick="changeQuantity(${key}, ${value.qty - 1})">-</button>
+//                     <div class="count">${value.qty}</div>
+//                     <button onclick="changeQuantity(${key}, ${value.qty + 1})">+</button>
+//                 </div>
+//             `
+//             listcard.appendChild(newDiv)
+//         }
+//     })
+//     total.innerText = totalprice.toLocaleString();
+//     qty.innerText = count;
+// }
+// function changeQuantity(key, qty){
+//     if(qty == 0){
+//         delete listcards[key];
+//     }
+//     else{
+//         listcards[key].qty = qty
+//         listcards[key].price = qty * products[key].price
+//     }
+//     reloadcard()
+// }
+
